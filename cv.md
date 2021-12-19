@@ -16,3 +16,12 @@ I am 32 years old, I work in a robotics school. I have good interpersonal skills
 - Git
 - JavaScript
 - Figma
+
+## **Code Example**
+
+```
+function even_or_odd(number) {
+  if (number%2===0) return 'Even';
+  return 'Odd';
+}
+```
