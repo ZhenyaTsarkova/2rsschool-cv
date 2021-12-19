@@ -25,3 +25,16 @@ function even_or_odd(number) {
   return 'Odd';
 }
 ```
+
+## **Experiences**
+
+-
+
+## **Education**
+
+- **University:** Mechanics and Mathematics Faculty of Belarusian State University
+- **Courses:** RS Schools «JavaScript / Front-end» _(in progress)_
+
+## **English level**
+
+A2
