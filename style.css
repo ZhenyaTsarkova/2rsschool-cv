@@ -448,14 +448,19 @@ h3 {
   font-weight: 700;
   margin-left: 10px;
 }
-iframe {
+.block3 img {
+  border-radius: 5px;
   width: 40%;
   margin: 10px;
-  border: 2px solid var(--main-color1);
+  padding: 2px;
+  opacity: 0.5;
+}
+.block3 img:hover {
+  opacity: 1;
 }
 code {
   display: block;
-  width: 340px;
+  width: 500px;
   background: var(--main-color);
   border: 1px dotted var(--main-color1);
   padding: 10px;
@@ -491,13 +496,10 @@ span {
 @media (max-width: 1050px) {
   aside {
     width: 35%;
-    padding-bottom: 180px;
+    padding-bottom: 190px;
   }
   div.block2 {
     width: 60%;
-  }
-  iframe {
-    width: 50%;
   }
 }
 @media (max-width: 900px) {
@@ -508,11 +510,9 @@ span {
   div.block2 {
     width: 55%;
   }
+
   li {
     font-size: 15px;
-  }
-  iframe {
-    width: 60%;
   }
   footer {
     height: 100px;
@@ -565,10 +565,5 @@ span {
   div.block2 {
     width: 90%;
     margin-top: 0;
-  }
-  iframe {
-    width: 70%;
-    margin-bottom: 5%;
-    margin-left: 17%;
   }
 }
