@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="topnav" id="myTopnav">
+        <a href="#home">Zhenya Tsarkova CV</a>
+        <a href="#contacts">Contact</a>
+        <a href="#skills">Skills</a>
+        <a href="#languages">Languages</a>
+        <a href="#me">About me</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#code">Code Example</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <header class="block">
+        <figure class="block" id="home">
+          <img src="photo.jpg" alt="Photo" />
+        </figure>
+        <div class="block">
+          <h1 class="title">Zhenya Tsarkova</h1>
+          <h2 class="title">Junior Frontend developer</h2>
+        </div>
+      </header>
+      <aside class="block">
+        <article class="block1">
+          <h2 class="title1" id="contacts">Contacts</h2>
+          <ul>
+            <li class="class1">
+              <b>+375(29)-159-13-40</b>
+            </li>
+            <li class="class2">
+              <b>luna170500@gmail.com</b>
+            </li>
+            <li class="class3">
+              <b>@ZhenyaTsarkova</b>
+            </li>
+          </ul>
+        </article>
+        <article class="block1">
+          <h2 class="title1" id="skills">Skills</h2>
+          <ul>
+            <li><b>HTML5</b></li>
+            <li><b>CSS3</b></li>
+            <li><b>Git, GitHub</b></li>
+            <li><b>JavaScript Basics</b></li>
+            <li><b>Figma</b></li>
+          </ul>
+        </article>
+        <article class="block1">
+          <h2 class="title1" id="languages">Languages</h2>
+          <ul>
+            <li>
+              <b>Russian -</b>
+              Native
+            </li>
+            <li>
+              <b>English -</b>
+              Pre-Intermediate
+            </li>
+          </ul>
+        </article>
+      </aside>
+      <div class="block2">
+        <section class="block3">
+          <h2 class="title2" id="me">About me</h2>
+          <p>
+            I am 32 years old, I work in a robotics school. I have good
+            interpersonal skills, I can work in a team and I learn easily . I am
+            assiduous, hardworking and I really enjoy solving various problems.
+            I want to gain knowledge in the field of front-end development in
+            order to be able to develop throughout my life.
+          </p>
+        </section>
+        <section class="block3">
+          <h2 class="title2" id="education">Education</h2>
+          <h3>University:</h3>
+          <p>
+            Mechanics and Mathematics Faculty of Belarusian State University
+          </p>
+          <h3>Courses:</h3>
+          <p>RS Schools «JavaScript / Front-end»<i>(in progress)</i></p>
+        </section>
+        <section class="block3">
+          <h2 class="title2" id="projects">Projects</h2>
+          <a href="https://elated-hoover-833740.netlify.app/">
+            <img src="clock.jpg" alt="rs school" width="50" />
+          </a>
+        </section>
+        <section class="block3">
+          <h2 class="title2" id="code">Code Example</h2>
+          <pre>
+              <code>
+                function isDivideBy(number, a, b) {
+                  if (number % a === 0 && number % b === 0) return true;
+                  return false;// good luck
+                }
+              </code>
+            </pre>
+        </section>
+      </div>
+      <footer>
+        <nav class="class4">
+          <a href="https://github.com/ZhenyaTsarkova"> ZhenyaTsarkova</a>
+        </nav>
+        <span>2022</span>
+        <nav class="class5">
+          <a href="https://rs.school/js/">
+            <img src="rs_school_js.svg" alt="rs school" width="200" />
+          </a>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
